@@ -1,0 +1,123 @@
+[
+  {
+    "description": "US03 - Eu como usuário padrão, gostaria de poder cadastrar minhas informações de nome e endereço \nPara que eu possa receber uma compra corretamente",
+    "keyword": "Funcionalidade",
+    "name": "US03",
+    "line": 3,
+    "id": "us03",
+    "tags": [],
+    "uri": "US03.feature",
+    "elements": [
+      {
+        "id": "us03;fornecer-informações-para-compra-dos-produtos",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Fornecer informações para compra dos produtos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que eu finalizo a escolha dos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 2236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "o sistema me pede informações para realizar a compra",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "informo meus dados para compra",
+            "result": {
+              "status": "passed",
+              "duration": 734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "clico no botão continue",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 15,
+            "name": "o sistema me dá um resumo das informações da compra com dados para entrega",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "us03;verificar-o-resumo-e-finalizar-a-compra",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verificar o resumo e finalizar a compra",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que eu finalizo a escolha dos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 1892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 18,
+            "name": "o sistema me informa o resumo da compra com dados para entrega",
+            "result": {
+              "status": "passed",
+              "duration": 874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 19,
+            "name": "verifico as informações fornecidas",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 20,
+            "name": "Finalizo a compra e vejo a mensagem de validação",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

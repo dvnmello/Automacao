@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "http://www.saucedemo.com/",
+    "responseTimeout": 5000,
+    "requestTimeout": 5000,
+    "experimentalSourceRewriting": false,
+    "WatchForFileChanges": true,
+    "testFiles": "**/*.{feature,features}",
+    "validUser1": {
+        "name": "standard_user",
+        "password": "secret_sauce"
+    },
+  
+    
+    "invalidUser": {
+        "name": "locked_out_user",
+        "password": "secret_sauce"
+    },
+    "chromeWebSecurity": false
+}
+

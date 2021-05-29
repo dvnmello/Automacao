@@ -1,0 +1,63 @@
+[
+  {
+    "description": "Eu como usuário padrão, gostaria de poder visualizar meu carrinho de compras, \nPara que eu possa finalizar uma compra",
+    "keyword": "Funcionalidade",
+    "name": "US02",
+    "line": 3,
+    "id": "us02",
+    "tags": [],
+    "uri": "US02.feature",
+    "elements": [
+      {
+        "id": "us02;verifico-produtos-no-carrinho",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verifico produtos no carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu acesso a página, adiciono um produto ao carrinho para finalizar compra",
+            "result": {
+              "status": "passed",
+              "duration": 2069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "verifico meu carrinho com produtos",
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "clico na opção para finalizar compra",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "o sistema me pede informações para realizar a compra",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
